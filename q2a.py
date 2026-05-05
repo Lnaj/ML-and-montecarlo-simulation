@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # Paramètres globaux
 # ---------------------------
 r     = 0.02
-S0    = 100
-sigma = 0.15
+S0    = 90
+sigma = 0.20
 T     = 0.5
 N     = 26        # pas temporel hebdomadaire
 n_sim = 50000

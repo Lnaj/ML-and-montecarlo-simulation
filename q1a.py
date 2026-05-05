@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # Paramètres globaux
 # ---------------------------
 r     = 0.02       # taux d'intérêt
-S0    = 100        # valeur initiale du sous-jacent
-sigma = 0.15       # volatilité
+S0    = 90        # valeur initiale du sous-jacent
+sigma = 0.20       # volatilité
 K     = 110        # strike
 T     = 0.5        # maturité en années (6 mois)
 N     = 26         # nombre de pas (6 mois en 26 pas ~ hebdomadaire)
