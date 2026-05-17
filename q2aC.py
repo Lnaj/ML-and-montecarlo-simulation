@@ -230,6 +230,8 @@ plt.tight_layout()
 plt.savefig("biais_discretisation.png", dpi=150)
 plt.show()
 
+
+
 # ---------------------------
 # Graphique 2 : Comparaison biaisé / corrigé / BS
 # ---------------------------
