@@ -64,7 +64,7 @@ def monte_carlo_lookback_put(S0, r, sigma, T, N, n_sim, seed=42):
     payoffs  = np.maximum(M_T - S_T, 0)
     discount = np.exp(-r*T)
     price    = discount * np.mean(payoffs)
-    std_err  = discount * np.std(payoffs) / np.sqrt(n_sim)
+    std_err  = discount * np.std(payoffs, ddof=1) / np.sqrt(n_sim)
 
     return price, std_err, payoffs, paths
 
