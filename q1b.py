@@ -17,7 +17,7 @@ sigma = 0.20
 K     = 110
 T     = 0.5
 N     = 26
-n_sim = 10000
+n_sim = 50000
 
 # ---------------------------
 # Fonction Black-Scholes - European Put
