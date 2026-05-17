@@ -16,7 +16,7 @@ K     = 110        # strike
 T     = 0.5        # maturité en années (6 mois)
 N     = 26         # nombre de pas (6 mois en 26 pas ~ hebdomadaire)
 dt    = T / N      # pas temporel
-n_sim = 10000      # nombre de simulations
+n_sim = 50000      # nombre de simulations
 
 # ---------------------------
 # Fonction de simulation Monte Carlo - European Put
