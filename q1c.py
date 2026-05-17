@@ -44,7 +44,7 @@ def monte_carlo_european_put(S0, K, r, sigma, T, N, n_sim, seed=42):
     payoff   = np.maximum(K - S_T, 0)
     discount = np.exp(-r*T)
     price    = discount * np.mean(payoff)
-    std_err  = discount * np.std(payoff) / np.sqrt(n_sim)
+    std_err  = discount * np.std(payoff, ddof=1) / np.sqrt(n_sim)
 
     return price, std_err
 
